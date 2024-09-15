@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Restoran</title>
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co.com/Sn7b3YN/dashboard-profile-logo-transformed.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@11.1.14/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <i class="fas fa-home"></i>
+        Murah Amat</a
+      >
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#dishes">Inter</a>
+        <a href="#about">jawa</a>
+        <a href="#menu">menu</a>
+        <a href="#order">Orderan</a>
+        <a href="#review">Komentar</a>
+      </nav>
+      <div class="icons">
+        <i class="fa fa-bars" id="menu-bars"></i>
+        <i class="fa fa-search" id="search-icon"></i>
+        <i class="fa fa-envelope"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-shopping-cart" id="cart"></i>
+      </div>
+    </header>
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="Pencarian disini..."
+        name="search"
+        id="search-box"
+      />
+      <label for="search-box" class="fa fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Makanan Khas</span>
+              <h3>Bakso Spesial</h3>
+              <p>
+                Bakso atau baso adalah jenis bola daging yang lazim ditemukan
+                pada masakan Indonesia. Bakso umumnya dibuat dari campuran
+                daging sapi giling dan tepung tapioka, tetapi ada juga bakso
+                yang terbuat dari daging ayam, ikan, atau udang bahkan daging
+                kerbau
+              </p>
+              <a href="#" class="btn">Order Sekarang</a>
+            </div>
+            <div class="image">
+              <img src="/images/baso.jpg" alt="baso" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Makanan Khas</span>
+              <h3>Gado-gado</h3>
+              <p>
+                Gado-gado adalah salah satu makanan khas yang berasal dari
+                Jakarta, Indonesia yang berupa sayur-sayuran yang direbus dan
+                dicampur jadi satu, dengan bumbu kacang atau saus dari kacang
+                tanah yang dimasak dalam minyak goreng.
+              </p>
+              <a href="#" class="btn">Order Sekarang</a>
+            </div>
+            <div class="image">
+              <img src="/images/gado.jpg" alt="gado" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Makanan Khas</span>
+              <h3>Sate Kambing</h3>
+              <p>
+                Sate kambing adalah sejenis makanan sate terbuat dari daging
+                kambing. Daging kambing tersebut dipanggang diatas bara api dan
+                dibumbui dengan rempah-rempah dan bumbu dapur, kemudian dibakar.
+              </p>
+              <a href="#" class="btn">Order Sekarang</a>
+            </div>
+            <div class="image">
+              <img src="/images/Sate.jpg" alt="sate" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Makanan internasional</h3>
+      <h1 class="heading">Makanan populer</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="/images/1.jpg" alt="makanan internasional" />
+          <h3>Sahimi jepang</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>IDR. 120K</span>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="/images/3.jpg" alt="makanan internasional" />
+          <h3>Soto asia</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>IDR. 150K</span>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="/images/4.jpg" alt="makanan internasional" />
+          <h3>seafood</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>IDR. 150K</span>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="/images/5.jpg" alt="makanan internasional" />
+          <h3>kentang asia</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>IDR. 180K</span>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="/images/6.jpg" alt="makanan internasional" />
+          <h3>waffle europe</h3>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <span>IDR. 150K</span>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="/images/7.jpg" alt="makanan internasional" />
+          <h3>salad jawa</h3>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-at"></i>
+          </div>
+          <span>IDR. 170K</span>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">masakan jawa</h3>
+      <h1 class="heading">ayam perjaka</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/Ayam1.jpg" alt="" />
+          <div class="content">
+            <h3>masakan terkenal di indonesia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+              consequatur architecto ex ipsa ut! Facilis similique est sint
+              officia dignissimos.
+            </p>
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>free delivery</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>easy payment</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>customer service</span>
+              </div>
+            </div>
+            <a href="#" class="btn">hubungi kami</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">menu spesial</h3>
+      <h1 class="heading">menu spesial setiap hari</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/8.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>makanan spesial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem, sed deserunt ad et rerum!
+            </p>
+            <a href="#">beli</a>
+            <span class="price">IDR. 150K</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/9.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>makanan spesial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem, sed deserunt ad et rerum!
+            </p>
+            <a href="#">beli</a>
+            <span class="price">IDR. 190K</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/10.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>makanan spesial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem, sed deserunt ad et rerum!
+            </p>
+            <a href="#">beli</a>
+            <span class="price">IDR. 150K</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/11.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>makanan spesial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem, sed deserunt ad et rerum!
+            </p>
+            <a href="#">beli</a>
+            <span class="price">IDR. 150K</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/12.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>makanan spesial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem, sed deserunt ad et rerum!
+            </p>
+            <a href="#">beli</a>
+            <span class="price">IDR. 150K</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/13.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>makanan spesial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              autem, sed deserunt ad et rerum!
+            </p>
+            <a href="#">beli</a>
+            <span class="price">IDR. 150K</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">ulasan pelanggan</h3>
+      <h1 class="heading">kata mereka tentang kami</h1>
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/Gambar 1.jpg" alt="." />
+              <div class="user-info">
+                <h3>Kim Hyeon</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>wah mantap, makanannya enak, terimakasih</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/Gambar 2.jpg" alt="." />
+              <div class="user-info">
+                <h3>Park ju hyun</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>Maknyus ,Tempatnya nyaman, Tidak nyesal makan di sini.</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/Gambar 3.jpg" alt="." />
+              <div class="user-info">
+                <h3>Hannie</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>Pelayanannya Mantap dan Ramah, Makanannya Enak Tenan....</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/Gambar 4.jpg" alt="." />
+              <div class="user-info">
+                <h3>Han so he</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Enak Sekali Makanannya, Tidak rugi makan di sini. Mantap Sekali.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <h3 class="sub-heading">order sekarang</h3>
+      <h1 class="heading">masukkan data anda</h1>
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>nama</span>
+            <input type="text" placeholder="masukkan nama anda" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>nomor hp</span>
+            <input type="text" placeholder="Nomor hp" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Jenis makanan</span>
+            <input type="text" placeholder="Jenis makanan" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>berapa banyak</span>
+            <input type="number" placeholder="Jumlah orderan" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>tanggal pemesanan</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Pesan anda</span>
+            <textarea
+              name=""
+              id=""
+              rows="10"
+              cols="30"
+              placeholder="masukkan pesan anda"
+            ></textarea>
+          </div>
+        </div>
+        <input type="submit" value="order sekarang" class="btn" />
+      </form>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>lokasi</h3>
+          <a href="#">kota depok</a>
+          <a href="#">kota surabaya</a>
+          <a href="#">kota Sidoarjo</a>
+          <a href="#">kota sukabumi</a>
+          <a href="#">kota bandung</a>
+          <a href="#">kota bantul</a>
+          <a href="#">kota yogyakarta</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#dishes">inter</a>
+          <a href="#about">jawa</a>
+          <a href="#menu">menu</a>
+          <a href="#order">order</a>
+          <a href="#review">komentar</a>
+        </div>
+
+        <div class="box">
+          <h3>untuk informasi</h3>
+          <a href="#">+62812345678</a>
+          <a href="mailto:zJb7i@example.com" style="text-transform: none"
+            >murahamat@gmail.com</a
+          >
+          <a href="mailto:zJb7i@example.com" style="text-transform: none"
+            >murahsekali@gmail.com</a
+          >
+          <a href="#">Sidoarjo, Jawa Timur - 61257 Indonesia</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+          <a href="#">whatsapp</a>
+        </div>
+      </div>
+      <div class="akhir">
+        Copyright @ 2024 by <span><i class="fas fa-home"></i> murahamat</span>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
